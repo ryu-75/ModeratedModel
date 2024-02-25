@@ -21,6 +21,7 @@ module Moderable
     response = HTTParty.get("https://moderation.logora.fr/predict?text=#{content}", body: { text: content }.to_json, headers: { 'Content-Type' => 'application/json' })
     result = JSON.parse(response.body)
     prediction_value = result["prediction"]["0"].to_f
+    puts "Result: #{prediction_value}"
     if prediction_value > 0.9
       return false
     else
@@ -28,6 +29,3 @@ module Moderable
     end
   end
 end
-
-# moderated_model = ModeratedModel.new
-# moderated_model.data_content
