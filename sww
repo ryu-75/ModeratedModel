@@ -1,0 +1,33 @@
+ => 
+[[32m#<ModeratedModel:0x00007f0d932cbaa8[0m
+  id: [34m[1m1[0m,
+  moderated: [31m[1m"[0m[31mFUCK! Bad things[0m[31m[1m"[0m,
+  is_accepted: [36m[1mtrue[0m,
+  created_at:
+   Sun, 25 Feb 2024 13:39:56.649447000 UTC +00:00,
+  updated_at:
+   Sun, 25 Feb 2024 13:39:56.649447000 UTC +00:00[32m>[0m,
+ [32m#<ModeratedModel:0x00007f0d93be58c8[0m
+  id: [34m[1m2[0m,
+  moderated: [31m[1m"[0m[31mFUCK! Bad word[0m[31m[1m"[0m,
+  is_accepted: [36m[1mtrue[0m,
+  created_at:
+   Sun, 25 Feb 2024 15:13:26.398509000 UTC +00:00,
+  updated_at:
+   Sun, 25 Feb 2024 15:13:26.398509000 UTC +00:00[32m>[0m,
+ [32m#<ModeratedModel:0x00007f0d93be5788[0m
+  id: [34m[1m3[0m,
+  moderated: [31m[1m"[0m[31mBien[0m[31m[1m"[0m,
+  is_accepted: [36m[1mfalse[0m,
+  created_at:
+   Sun, 25 Feb 2024 16:43:32.315016000 UTC +00:00,
+  updated_at:
+   Sun, 25 Feb 2024 16:43:32.315016000 UTC +00:00[32m>[0m,
+ [32m#<ModeratedModel:0x00007f0d93be5648[0m
+  id: [34m[1m4[0m,
+  moderated: [31m[1m"[0m[31mExcellent![0m[31m[1m"[0m,
+  is_accepted: [36m[1mfalse[0m,
+  created_at:
+   Sun, 25 Feb 2024 16:44:55.383672000 UTC +00:00,
+  updated_at:
+   Sun, 25 Feb 2024 16:44:55.383672000 UTC +00:00[32m>[0m] 
